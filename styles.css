@@ -19,6 +19,15 @@ body {
   word-wrap: normal;
 }
 
+#myVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+}
+
 h1 {
   display: flex;
   font-size: 4rem;
